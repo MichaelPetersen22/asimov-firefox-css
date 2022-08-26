@@ -1,0 +1,4 @@
+.tab-icon-image[src="chrome://branding/content/icon32.png"] {
+  content: url('../image/planet.svg');
+}
+
