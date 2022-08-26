@@ -1,0 +1,16 @@
+@-moz-document url('about:home'), url('about:newtab'), url('about:privatebrowsing') {
+.logo
+{  
+background: url("../image/planet.svg") no-repeat !important;
+background-size: cover !important;
+}
+}
+
+.tab-icon-image[src="chrome://branding/content/icon32.png"] {
+  content: url("../image/planet.svg");
+  fill: var(--identity-icon-color, var(--general-color)) !important;
+}
+
+
+
+
